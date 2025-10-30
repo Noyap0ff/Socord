@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Socord</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>Socord</header>
+<div id="container">
+  <div id="channels">
+    <button onclick="switchChannel('general')">#general</button>
+    <button onclick="switchChannel('gaming')">#gaming</button>
+    <button onclick="switchChannel('music')">#music</button>
+  </div>
+  <div id="chat-area">
+    <div id="messages"></div>
+    <div id="input-area">
+      <input type="text" id="msg" placeholder="Type your message...">
+      <button id="send">Send</button>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
